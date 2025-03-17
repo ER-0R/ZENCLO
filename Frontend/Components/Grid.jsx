@@ -4,7 +4,6 @@ export default function Grid() {
   const [tiles, setTiles] = useState([]);
 
   useEffect(() => {
-    // Generate 1600 tiles dynamically
     setTiles(Array.from({ length: 1600 }, (_, index) => index));
   }, []);
 
