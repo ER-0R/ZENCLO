@@ -36,10 +36,10 @@
   inset: 0px;
   pointer-events: none;
   z-index: 2;
-  background-image: url("https://assets.codepen.io/1468070/plus-pattern-center.png");
+  background-image: url(./assets/plus-small-removebg-preview__1_-removebg-preview.png);
   background-size: 5%;
   background-repeat: repeat;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .grid-container::after {
