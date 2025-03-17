@@ -15,12 +15,12 @@
   --green-rgb: 23 177 105;
   --yellow-rgb: 255, 191, 0;
   
-  --background-rgb:2, 48, 32;
+  --background-rgb: 27, 18, 18;
 }
 
 /* Grid Container */
 .grid-container {
-  width: 120rem;
+  width: 100rem;
   aspect-ratio: 1;
   display: grid;
   grid-template-rows: repeat(40, 1fr);
@@ -43,7 +43,7 @@
 }
 
 .grid-container::after {
-  content: "";
+  content: " ";
   position: absolute;
   inset: 0px;
   pointer-events: none;

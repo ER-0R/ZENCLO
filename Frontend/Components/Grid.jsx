@@ -9,7 +9,7 @@ export default function Grid() {
   }, []);
 
   return (
-    <div className="h-screen w-full flex items-center justify-center bg-black overflow-hidden perspective-[2000px]">
+    <div className="h-screen w-full flex items-center justify-center bg-[#FFFFF0] overflow-hidden perspective-[2000px]">
       <div className="grid-container relative">
         {tiles.map((tile, index) => (
           <div key={index} className="tile" />

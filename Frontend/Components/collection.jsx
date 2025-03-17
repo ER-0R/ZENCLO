@@ -1,13 +1,8 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
-export default function Collection(){
-
-
-    return(
+export default function Collection() {
     <>
-    <div className="flex justofy-center items-center">
-
-    </div>
+    <h1></h1>
     </>
-    )
 }
