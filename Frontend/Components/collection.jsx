@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { useRef, useState } from "react";
 
 export default function Collection() {
-    <>
-    <h1></h1>
-    </>
+
+  return (
+    <div></div>
+  );
 }
